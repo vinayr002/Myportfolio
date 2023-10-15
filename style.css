@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color: rgba(255, 255, 255, 0.914);
+    --secondary-color: rgba(215, 209, 209, 0.808);
+    --padding-line-section: 20px;
+    --accent-color: #2294ed;
+    --accent-color-dark :#1d6983;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(8, 8, 8, 0.959);
+    color: var(--secondary-color);
+}
+h1, h2{
+    color: var(--primary-color);
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    color: var(--secondary-color);
+}
+.flex{
+    display: flex;
+    align-items: center; 
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    z-index: 100;
+}
+.main-nav{   
+    justify-content: space-between;
+    padding-block: 8px;
+}
+.main-nav img{
+    width: 80px;
+    margin-left: 150px;
+}
+.navlinks{
+    flex-basis: 850px;
+    padding: 20px;
+}
+.navlinks ul{
+    justify-content: center;
+    gap: 50px;
+}
+.nav-toggle{
+    display: none;
+}
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease;
+}
+.active{
+    color: var(--accent-color-dark);
+}
+.hover-link:hover{
+    color: var(--accent-color);
+}
+
+
+.main{
+    padding-top: 70px;
+    /* margin-top: 70px; */
+}
+.content{
+    text-align: justify;
+    width: 40%;
+    align-items: center;
+    
+}
+.content h1{
+    font-size: 7rem;
+    line-height: 120px;
+}
+.content p{
+    font-size: 1.25rem;
+    padding-block: 20px;
+}
+.header{
+    margin: 30px 30px;
+    justify-content: space-around;
+    text-align: justify;  
+}
+.header img{
+    width: 28%;
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+.header img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #cdcbcbed;;
+    transform: translateY(-2px);
+}
+
+
+
+.about{
+    align-items: center;
+    margin-top: 80px;
+}
+.details{
+    padding-top: 5%;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 40px;
+}
+.details h2{
+    font-size: 3rem;
+    padding: 40px;
+    color: var(--primary-color);
+}
+.details p{
+    font-size: 1.25rem;
+    padding: 20px;
+    color: var(--secondary-color);
+}
+
+
+.portfolio{
+    margin-top: 10%;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.projects {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.card{
+    width: 80%;
+    margin-bottom: 100px;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 8px 36px -4px rgba(148, 148, 148, 0.1);
+    transition: all 0.2s ease;
+}
+.card img:hover{
+    /* box-shadow: 0 0 5px #cdcbcbed;; */
+    transform: translateY(-2px);
+}
+.card-content{
+    margin: 10px;
+}
+.card-content h1{
+    padding-block: 10px;
+}
+
+
+
+
+.border{
+    border: 2px solid var(--secondary-color);
+    border-radius:20px ;
+    width: 60%;
+    height: 250px;
+    align-items: center;
+    margin: 40px auto;
+    gap: 40px;
+}
+.cmpny-logo img{
+    width: 80%;
+    margin-left: 40px;
+}
+.cmpny-logo p{
+    text-align: center;
+    padding: 10px;
+}
+.description{
+    width: 55%;
+    margin-left: 30px;
+    text-align: center;
+    padding-block: 20px;
+}
+.description a{
+    margin: 20px;
+}
+.description p{
+    line-height: 20px;
+}
+
+
+
+.contact{
+    margin-inline: 10%;
+    text-align: center;
+    align-items: center;     
+    background-color: rgba(76, 73, 73, 0.24); 
+}
+.footer-head{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+.links{
+    padding: 5%;
+    gap: 10px;
+    justify-content: space-around;
+    color: var(--secondary-color);
+}
+.font{
+    gap: 10px;
+}
+footer p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
