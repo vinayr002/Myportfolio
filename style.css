@@ -81,27 +81,29 @@ nav{
 }
 .content{
     text-align: justify;
-    width: 40%;
-    align-items: center;
-    
+    width: 100%;
+    padding-inline: 50px;
+    margin-left: 80px;
 }
 .content h1{
-    font-size: 7rem;
-    line-height: 120px;
+    font-size: 6.5rem;
+    line-height: 100px;
+    width: 100%;
 }
 .content p{
     font-size: 1.25rem;
     padding-block: 20px;
+    width: 80%;
 }
 .header{
     margin: 30px 30px;
-    justify-content: space-around;
-    text-align: justify;  
+    justify-content: space-around; 
 }
 .header img{
     width: 28%;
     border-radius: 20px;
     transition: all 0.2s ease-out;
+    margin-right: 10%;
 }
 .header img:hover{
     cursor: pointer;
@@ -113,25 +115,26 @@ nav{
 
 .about{
     align-items: center;
-    margin-top: 80px;
 }
 .details{
-    padding-top: 5%;
-    text-align: center;
-    width: 60%;
+    padding-top: 140px;
+    text-align: justify;
+    width: 75%;
     margin: 0 auto;
-    line-height: 40px;
 }
 .details h2{
     font-size: 3rem;
-    padding: 40px;
     color: var(--primary-color);
 }
 .details p{
     font-size: 1.25rem;
-    padding: 20px;
+    padding-top: 20px;
     color: var(--secondary-color);
+    text-align: left;
+    width: 90%;
+    line-height: 35px;
 }
+
 
 
 .portfolio{
@@ -141,8 +144,8 @@ nav{
 .heading{
     text-align: center;
     font-size: 1.8rem;
-    padding: 20px;
     margin-bottom: 40px;
+    padding-top: 20px;
 }
 .projects {
     width: 100%;
@@ -161,7 +164,6 @@ nav{
     transition: all 0.2s ease;
 }
 .card img:hover{
-    /* box-shadow: 0 0 5px #cdcbcbed;; */
     transform: translateY(-2px);
 }
 .card-content{
@@ -176,12 +178,15 @@ nav{
 
 .border{
     border: 2px solid var(--secondary-color);
-    border-radius:20px ;
-    width: 60%;
-    height: 250px;
+    border-radius: 20px;
+    width: 62%;
+    height: 260px;
     align-items: center;
     margin: 40px auto;
     gap: 40px;
+}
+.cmpny-logo{
+    width: 30%;
 }
 .cmpny-logo img{
     width: 80%;
@@ -192,13 +197,11 @@ nav{
     padding: 10px;
 }
 .description{
-    width: 55%;
-    margin-left: 30px;
-    text-align: center;
-    padding-block: 20px;
+    width: 60%;
+    text-align: justify;
 }
 .description a{
-    margin: 20px;
+    margin-block: 20px;
 }
 .description p{
     line-height: 20px;
